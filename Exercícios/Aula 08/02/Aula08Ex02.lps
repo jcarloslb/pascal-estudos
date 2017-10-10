@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="45"/>
+        <CursorPos X="28" Y="63"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="9" HistoryIndex="8">
+      <Position1>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="32" Column="63"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="30" Column="59" TopLine="15"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="34" Column="54" TopLine="15"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="36" Column="7" TopLine="30"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="35" Column="9" TopLine="23"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="34" Column="7" TopLine="18"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="35" Column="34" TopLine="15"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="40" Column="7" TopLine="20"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Aula08Ex02.lpr"/>
+        <Caret Line="39" Column="15" TopLine="17"/>
+      </Position9>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

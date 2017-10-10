@@ -1,0 +1,23 @@
+program Aula3Ex01;
+
+        uses crt;
+
+        var c : real;
+            f : real;
+
+begin
+
+     WriteLn('**Conversaum de Fahrenheit para Celsius**');
+     WriteLn();
+     Write('Digite a temperatura em Fahrenheit: ');
+     ReadLn(f);
+
+     c := (f - 32) * 5 / 9;
+
+     WriteLn();
+     WriteLn(f:0:2, ' Fahrenheit convertidos em Celsius eh: ', c:0:2);
+
+     ReadKey;
+
+end.
+

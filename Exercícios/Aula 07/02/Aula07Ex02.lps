@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="Aula07Ex02.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="78" Y="41"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="Aula07Ex02.lpr"/>
+        <Caret Line="39" Column="43" TopLine="5"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Aula07Ex02.lpr"/>
+        <Caret Line="50" Column="19" TopLine="23"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Aula07Ex02.lpr"/>
+        <Caret Line="81" Column="10" TopLine="49"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

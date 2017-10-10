@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="40"/>
+        <CursorPos X="5" Y="53"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="14" Column="26"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="19" Column="17" TopLine="4"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="18" Column="6" TopLine="3"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="22" TopLine="2"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="57" Column="8" TopLine="24"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="52" Column="2" TopLine="25"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="41" Column="20" TopLine="24"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="9" Column="58"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="45" TopLine="26"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="39" Column="18" TopLine="29"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Aula4Ex04.lpr"/>
+        <Caret Line="50" Column="46" TopLine="35"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

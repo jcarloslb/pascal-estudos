@@ -1,0 +1,92 @@
+program Aula07Ex01;
+
+{Faça um programa que joga contra um humano. O programa conta quantos
+palpites o jogador precisou até adivinhar um número inteiro sorteado
+entre 1 e 1000, inclusive. Cada vez que o jogador erra, o programa diz
+quantas tentativas já foram feitas e dá uma dica. A dica informa se o
+número chutado é maior ou menor que o número sorteado. O jogo vai
+estreitando o intervalo de números possíveis conforme as tentativas vão
+sendo feitas. O programa ainda imprime uma avaliação do desempenho do
+jogador segundo a tabela na próxima página:}
+
+uses
+  crt;
+
+var
+  num_digitado: integer;//entrada do usuário
+  num_sorteado: integer;//número sorteado
+  i: integer;//variavel de incremento - numero de tentativas
+  num_maior: integer;//guarda numero maior
+  num_menor: integer;//guarda numero menor
+  msg: string[100];
+
+begin
+
+  //sorteio do número
+  Randomize;
+  num_sorteado := Random(1000) + 1;
+  WriteLn(num_sorteado);//imprime na tela o número sorteado (NÃO É NECESSÁRIO)
+
+  //Entrada de dados para o sorteio
+  WriteLn('Um numero aleatorio foi sorteado.');
+  Write('Digite um numero entre 1 e 1000 para tentar acertar o valor sorteado: ');
+  ReadLn(num_digitado);//armazenando número sorteado
+  i := 1;
+  num_maior := 1000;
+  num_menor := 1;
+
+
+  //Iniciando o loop while
+  while (num_sorteado <> num_digitado) do
+  begin
+
+    //Verifica se o número digitado é maior que o sorteado
+    if (num_digitado > num_sorteado) then
+    begin
+
+      num_maior := num_digitado;//armazena o número digitado na variável num_maior
+
+      WriteLn();
+      //exibe o número de tentativas e mostra se o número digitado é mais alto que o sorteado
+      WriteLn('Tentativa: ', i, '. Entre com um numero entre ', num_menor, ' e ', num_digitado, ': ', num_digitado, ' Muito alto.');
+      ReadLn(num_digitado);
+
+    end
+
+    else
+    begin
+
+      num_menor := num_digitado;//armazena o número digitado na variável num_menor
+
+      WriteLn();
+      //exibe o número de tentativas e mostra se o número digitado é mais baixo que o sorteado
+      WriteLn('Tentativa: ', i, '. Entre com um numero entre ', num_menor, ' e ', num_maior, ': ', num_digitado, ' Muito baixo.');
+      ReadLn(num_digitado);
+    end;
+
+    i := i + 1;//armazena o número de tentativas
+
+  end; //fim while
+
+  //Verifica se o número digitado é igual ao número sorteado.
+  if (num_digitado = num_sorteado) then
+
+     //verifica a quantidade de tentativas
+    case i of
+      1, 2, 3, 4, 5:    msg := 'Voce, como adivinhador, eh excelente!';
+      6, 7:             msg := 'Voce, como adivinhador, eh bom!';
+      8, 9, 10, 11, 12: msg := 'Voce, como adivinhador, eh normal!';
+      13, 14:           msg := 'Voce, como adivinhador, eh ruim!';
+      15:               msg := 'Voce, como adivinhador, eh tragico!'
+      else
+        msg := 'Voce, como adivinhador, eh tragico!';
+    end;
+
+  WriteLn();
+  //exibe mensagem de acerto do número
+  WriteLn('Voce acertou o numero ', num_sorteado, ' em ', i, ' tentativas.');
+  //exibe mensagem referente à quantidade de tentativas
+  WriteLn(msg);
+
+  ReadKey;
+end.
