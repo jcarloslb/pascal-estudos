@@ -13,8 +13,6 @@ var
   num: array[1..20] of integer;
   menor, i: integer;
 
-
-
 begin
 
   WriteLn('Digite 20 numeros seguidos do enter: ');
@@ -32,7 +30,6 @@ begin
       menor := num[i];
   end;
 
-
   WriteLn();
   WriteLn('O menor numero digitado foi: ', menor);
 
@@ -42,9 +39,7 @@ begin
 
   for i := 1 to 20 do
   begin
-
     WriteLn(num[i]:2, ' - ', menor, ' = ', num[i] - menor:2);
-
   end;
 
   ReadKey;

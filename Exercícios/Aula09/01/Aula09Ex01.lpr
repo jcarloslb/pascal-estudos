@@ -8,17 +8,15 @@ uses
 
 var
   num: array[1..10] of integer;
-  maior, menor, amplitude, i, n: integer;
+  maior, menor, amplitude, i : integer;
 
 begin
 
   //Solicita que o usuário digite os números
   for i := 1 to 10 do
   begin
-
-    Write('Digite um numero inteiro:');
+    Write('Digite um numero inteiro: ');
     ReadLn(num[i]);
-
   end;
 
   WriteLn();
@@ -29,7 +27,6 @@ begin
   WriteLn();
   for i := 1 to 10 do
   begin
-
     if (num[i] mod 2 = 0) then
     begin
       WriteLn('O numero ', num[i], ' eh par.');
@@ -42,15 +39,11 @@ begin
   maior := num[1];
   menor := num[1];
   //Verifica qual o numero maior e o menor
-  for i := 1 to 10 do
+  for i := 2 to 10 do
   begin
+    if (num[i] > maior) then maior := num[i];
 
-    if (num[i] > maior) then
-      maior := num[i];
-
-    if (num[i] < menor) then
-      menor := num[i];
-
+    if (num[i] < menor) then menor := num[i];
   end;
 
   //Calcula amplitude
