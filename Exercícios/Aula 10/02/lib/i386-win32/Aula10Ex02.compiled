@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.2\bin\i386-win32\fpc.exe" Date="1247519558"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq &quot;-FiD:\Arquivos Faculdade\Algoritmos e Lógica de Programação\Exercícios\Aula10\02\lib\i386-win32&quot; &quot;-FuD:\Arquivos Faculdade\Algoritmos e Lógica de Programação\Exercícios\Aula10\02\&quot; &quot;-FUD:\Arquivos Faculdade\Algoritmos e Lógica de Programação\Exercícios\Aula10\02\lib\i386-win32\&quot; Aula10Ex02.lpr"/>
+</CONFIG>
