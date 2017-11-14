@@ -1,0 +1,44 @@
+program Aula11Ex01;
+
+uses
+  crt;
+
+  procedure CalculaFatorial(num: integer);
+
+  var
+    i: integer;
+
+  begin
+
+    while (num <> -1) do
+    begin
+
+      Write('Digite um número para saber o seu fatorial: ');
+      ReadLn(num);
+
+      if (num = 0) then
+        num := 1;
+
+      for i := num downto 1 do
+      begin
+
+        num := num * i;
+
+      end;
+    end;
+
+    WriteLn();
+    Write(num);
+
+  end;
+
+begin
+
+  WriteLn('*****Calculo de numero fatorial*****');
+  WriteLn();
+
+  CalculaFatorial(5);
+
+  ReadKey;
+
+end.
